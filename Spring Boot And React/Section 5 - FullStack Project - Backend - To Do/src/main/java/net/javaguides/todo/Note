@@ -1,0 +1,42 @@
+Spring Security:
+    1. SpringSecurityConfig:
+            - Chức năng: Cấu hình phân quyền và tạo Bean AuthenticationManager được sử dụng để thực hiện quá trình xác thực trong ứng dụng.
+
+    2. CustomUserDetailsService:
+        - Chức năng: lấy thông tin người dùng từ cơ sở dữ liệu và  chuyển đổi nó thành đối tượng
+                     UserDetails (bao gồm username, password và danh sách các quyền) để sử dụng trong quá trình xác thực và phân quyền.
+
+    3. AuthServiceImpl:
+        - Chức năng: Xử lý Đăng ký và Đăng nhập
+        - Đăng nhập: Sử dụng AuthenticationManager để xác thực
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
